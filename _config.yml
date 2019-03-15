@@ -8,7 +8,7 @@ subtitle: 犯二
 description: 二进制漏洞挖掘与利用
 keywords: hacker 底层 漏洞挖掘
 author: Justlearnm0re
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -82,7 +82,7 @@ pagination_dir: page
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 #theme: landscape
-theme: yilia
+theme: jacman
 
 jsonContent:
     meta: false
@@ -96,7 +96,7 @@ jsonContent:
       content: false
       slug: false
       updated: false
-      comments: false
+      comments: true
       link: false
       permalink: false
       excerpt: false
