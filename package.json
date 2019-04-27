@@ -8,6 +8,7 @@
   "dependencies": {
     "hexo": "^3.7.0",
     "hexo-asset-image": "0.0.3",
+    "hexo-baidu-url-submit": "0.0.6",
     "hexo-deployer-git": "^1.0.0",
     "hexo-excerpt": "^1.1.4",
     "hexo-generator-archive": "^0.1.5",
