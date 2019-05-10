@@ -19,8 +19,8 @@ baidusitemap:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-#url: https://driverxdw.github.io
+#url: http://yoursite.com
+url: https://driverxdw.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -113,14 +113,14 @@ jsonContent:
 
 baidu_url_submit:
         count: 5
-        host: https://driverxdw.github.io
+        host: driverxdw.github.io
         token: KhvZIOhIi0vBuNWS
         path: baidu_urls.txt
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-    type: git
+-   type: git
     repo: https://github.com/driverxdw/driverxdw.github.io.git
     branch: master
-    #type: baidu_url_submitter
+-   type: baidu_url_submitter

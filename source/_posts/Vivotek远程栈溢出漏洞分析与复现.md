@@ -67,7 +67,7 @@ vivotek官网并没有发布漏洞固件的历史版本，深夜去国外各大�
 
 这边遇到两个坑点，一个是一开始运行httpd的时候会显示`gethostbyname::success`，然鹅httpd进程并没有成功启动，httpd文件丢ida
 
-![](./hostname1.png) 
+![](./host1.png) 
 
 这边涉及两个主要函数，一个是gethostname,它获取本机主机名，将结果存放在`rlimits`变量中；另一个是gethostbyname,这个函数通过rlimits中存放的主机名寻找ip。这边由于固件hostname中的主机名和宿主机中的hostname有冲突，导致gethostbyname并不能正确的找到主机名对应的ip。
 
@@ -245,7 +245,7 @@ os.system(payload)
 
 ![](./success1.png)  
 
-![](./success2.png)  s
+![](./success2.png)  
 
 通过此漏洞在远端2222端口反弹一个shell，本地nc过去，成功getshell~。
 
