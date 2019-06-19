@@ -1,6 +1,6 @@
 ---
 title: AFL-Fuzz技术初探
-data:
+date: 2019-4-17 00:18:51
 tags: [Fuzz, 总结]
 categories: Fuzz
 ---

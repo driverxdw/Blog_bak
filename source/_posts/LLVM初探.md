@@ -1,6 +1,6 @@
 ---
 title: LLVM初探
-data:
+date: 2019-4-3 00:18:51
 tags: [编译器, 总结, 虚拟机]
 categories: 虚拟机
 ---

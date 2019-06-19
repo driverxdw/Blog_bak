@@ -1,6 +1,6 @@
 ---
 title: 2019国赛 线上赛 PWN&RE
-data:
+date: 2019-4-24 00:18:51
 tags: [CTF, PWN]
 categories: 2019国赛  
 ---

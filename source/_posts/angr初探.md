@@ -1,6 +1,6 @@
 ---
 title: angr初探 一
-data:
+date: 2019-4-17 00:18:51
 tags: [Tools, Fuzz]
 categories: Fuzz
 ---

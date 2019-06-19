@@ -1,6 +1,6 @@
 ---
 title: IdaPython使用小结
-data:
+date: 2019-4-11 00:18:51
 tags: [Tools, IDA]
 categories: Tools
 ---

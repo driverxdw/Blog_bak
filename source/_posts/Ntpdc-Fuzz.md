@@ -1,6 +1,6 @@
 ---
 title: Ntpdc Fuzz
-data:
+date: 2019-4-27 00:18:51
 tags: [Fuzz, NTP]
 categories: Fuzz
 ---
